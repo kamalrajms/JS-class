@@ -1,3 +1,5 @@
+1/3/2025
+
 introduction to Js
 Variables and Datatype
 Operator and Expression
@@ -21,6 +23,7 @@ DOM manipulation
 
         singleline comment=  \\
         multi line comment=  /* */
+         js is case-sensitive
 
 /// Variables and Datatype
 
@@ -34,6 +37,50 @@ DOM manipulation
 
     Datatype-primitive data type, referance Datatype
 
-        primitive data type = integer, flot,boolean,null,undefined,string.
+        primitive data type = number,boolean,null,undefined,string.
 
         referance data type = object ,array ,function.
+
+3/3/2025
+
+        primitive data type-
+
+        String → Text enclosed in quotes
+        Number → Any numeric value (integer or decimal)
+        Boolean → true or false
+        Undefined → A variable declared but not assigned a value
+        Null → Represents an intentional empty value
+
+
+        type convertion
+        str to num
+        num to srt
+        Converting to a Boolean
+
+        false values =0, "", null, undefined, Nan
+        truth value= everything evpect
+
+///operators and expression
+
+        arithematic, assignment,comparison, logical, bitwise,ternary operators
+
+        arithematic=[ +   -      *       /       %       **]
+
+        assignment =[ = , += ,-= , *= ,/= ,%= ,**=]
+
+        comparison =[ ==,===, != ,!== ,< ,>,<=,>=]
+
+        logical =[ &&, ||, !]
+
+        bitwise=[&,|,^]
+
+        to find binary num== 64 32 16 8 4 2 1
+
+        01100=12
+        10101=21
+        12-21
+        00100=4
+
+        ternary operator=  A shorthand for if-else statements.  (a ? "true" : "false");
+
+        {},[],(),\*,/,+,-
