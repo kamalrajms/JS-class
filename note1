@@ -83,4 +83,59 @@ DOM manipulation
 
         ternary operator=  A shorthand for if-else statements.  (a ? "true" : "false");
 
-        {},[],(),\*,/,+,-
+        {},[],(),*,/,+,-
+
+
+4/3/2025
+
+        prompt - for user input
+
+        per(++a)-increment=it will increment the value and assigned
+        post(a++)increment=it will assigne the value first and increment it .
+
+
+        comditional-statements
+
+                //if statement
+                        if(condition){
+                                //true
+                        }
+                        else if(condition){
+                                //true
+                        }
+                        else{
+
+                        }
+                //switch
+                        switch(expression){
+                                case 1:
+                                break
+                                case2:
+                                break
+                                default:
+                        }
+
+
+        loop
+                for
+                while
+                do-while
+                for in
+                for of
+
+                //for
+
+                for(initializing,condition, increment/decrement){
+                        
+                }
+
+                //while
+                while(condition){
+
+                }
+
+                //do-while
+                do{
+
+                }while(condition)
+
