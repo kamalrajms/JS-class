@@ -139,3 +139,43 @@ DOM manipulation
 
                 }while(condition)
 
+
+5/3/2025
+
+        Used to iterate over the properties (keys) of an object.
+        Works on objects but can also be used on arrays (though not recommended).
+                //for in loop
+                for (let key in object){
+
+                }
+
+
+        for...of Loop (For Arrays & Iterables)
+        Used to iterate over the values of an array or iterable objects (like strings, Maps, Sets, etc.).
+        Works on arrays, strings, Maps, Sets, etc.
+                for (let value of iterable) {
+                // Code to execute
+                }
+
+
+
+        Uses of Backticks (`) in JavaScript
+                Template Literals (Template Strings)
+                Expression Interpolation (${})
+
+
+
+///function
+
+        function decleration
+                function name(){
+
+                }
+        anonmous function
+                let num =function(){
+
+                }
+        arrow function 
+                let num =()=>{
+       
+                }
