@@ -1,3 +1,9 @@
-let numbers = [1, 2, 3, 4, 5, 6];
-let sqe = numbers.map((num) => num * num);
-console.log(sqe);
+let students = {
+  name: "john",
+  marks: {
+    math: 90,
+    science: 55,
+  },
+};
+
+console.log(students.marks.math);
