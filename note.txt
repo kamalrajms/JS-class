@@ -211,6 +211,7 @@
 
 
 
+//  7/3/2025
 // ///Arrays=[]
 
 
@@ -239,3 +240,75 @@
 //         for loop in array
 
 //         map in arrays
+
+
+13//3/2025
+
+//object
+
+    An object in JavaScript is a collection of key-value pairs, where:
+
+    Keys (also called properties) are strings.
+    Values can be any data type: strings, numbers, arrays, functions, or even other objects.
+
+            Creating an Object in JavaScript
+                name, age, and isStudent are properties.
+                greet() is a method (a function inside an object).
+                this.name refers to the object's name property.
+
+            Accessing Object Properties
+                console.log(person["age"]); // Output: 25
+                   console.log(person.name); // Output: Alice
+Modifying Objects
+    Adding a New Property
+    Updating an Existing Property
+    Removing a Property
+
+Object Methods
+    get all keys
+    get all values
+    get all  keys and values
+
+Creating Objects Using Constructors
+    Constructor Function
+
+        function Person(name, age) {
+            this.name = name;
+            this.age = age;
+        }
+
+        let p1 = new Person("Bob", 28);
+        console.log(p1.name); // Output: Bob
+
+    Classes (Better Approach)
+
+        class Person {
+            constructor(name, age) {
+                this.name = name;
+                this.age = age;
+            }
+
+            greet() {
+                return `Hi, I'm ${this.name}`;
+            }
+        }
+
+        let p2 = new Person("Eve", 35);
+        console.log(p2.greet()); // Output: Hi, I'm Eve
+
+Nested Objects
+
+        Objects can also contain other objects.
+
+        javascript
+        Copy
+        Edit
+        let student = {
+            name: "John",
+            marks: {
+                math: 90,
+                science: 85
+            }
+        };
+
+        console.log(student.marks.math); // Output: 90
