@@ -1,0 +1,74 @@
+15/3/2025
+
+DOM
+DOM tree structure
+selection of elements
+modifing and changing elements
+creating and removing elements     
+Event handelers in DOM
+Traversing the DOM(navigation B/w Elements)
+Forms & input Handling
+show ,hide ,toggle elements
+
+
+//DOM
+
+    DOM-
+        The Document Object Model (DOM) is a fundamental part of web development, allowing JavaScript 
+        to interact with HTML and change web pages dynamically. Below are the basic topics of the DOM 
+        that every beginner should learn.
+
+
+        The DOM (Document Object Model) is a structured representation of an HTML document.
+        The browser converts HTML into a tree-like structure (DOM tree), where each element is a node.
+        JavaScript can be used to select, modify, add, and delete elements dynamically.
+
+//tree structure  
+        DOm represent  HTML as a hierarchical tree
+            document node= the root of DOM
+            element node = HTML Tags(<nav>,<div>)
+            text node = text inside elements
+            attribute node =  attribute like(id,class,href...)
+            
+
+
+//selection of a elements
+
+            getElementById() = id
+            getElementByClassName()=class
+            getElementByTagName()=Tags
+            querySelector()=  (". or #")
+            querySelectorAll()= (". or #)
+            createElement()= add new element
+
+//modifing and changing elements
+
+        Changing Content
+
+            let heading = document.getElementById("heading");
+            heading.innerText = "Welcome to the DOM!";  // Changes text content
+
+        Changing HTML Inside an Element
+
+            let paragraph = document.querySelector(".text");
+            paragraph.innerHTML = "<strong>Updated paragraph!</strong>";  // Adds HTML inside
+
+        Changing CSS Styles
+
+            let heading = document.getElementById("heading");
+            heading.style.color = "blue";   // Changes text color
+            heading.style.fontSize = "24px"; // Changes font size
+
+
+//creating and removing elements
+
+add element
+
+    let newParagraph = document.createElement("p");
+    newParagraph.innerText = "This is a new paragraph!";
+    document.body.appendChild(newParagraph); // Adds the new paragraph to the page
+
+remove element
+
+    let removeElement = document.getElementById("heading");
+    removeElement.remove();  // Removes the heading from the page
